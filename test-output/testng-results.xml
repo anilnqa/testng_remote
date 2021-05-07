@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-05-08T00:33:21 IST" name="Suite" finished-at="2021-05-08T00:33:24 IST" duration-ms="3887">
+    <groups>
+    </groups>
+    <test started-at="2021-05-08T00:33:21 IST" name="Test" finished-at="2021-05-08T00:33:24 IST" duration-ms="3887">
+      <class name="dummy.DriverClass">
+        <test-method is-config="true" signature="launchBrowser()[pri:0, instance:dummy.DriverClass@5c30a9b0]" started-at="2021-05-08T00:33:18 IST" name="launchBrowser" finished-at="2021-05-08T00:33:21 IST" duration-ms="3026" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method is-config="true" signature="afterSuite()[pri:0, instance:dummy.DriverClass@5c30a9b0]" started-at="2021-05-08T00:33:24 IST" name="afterSuite" finished-at="2021-05-08T00:33:25 IST" duration-ms="707" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- dummy.DriverClass -->
+      <class name="dummy.Test_dummy">
+        <test-method is-config="true" signature="beforeClass()[pri:0, instance:dummy.Test_dummy@1ddf84b8]" started-at="2021-05-08T00:33:21 IST" name="beforeClass" finished-at="2021-05-08T00:33:21 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeClass -->
+        <test-method signature="method_1_goToApp()[pri:0, instance:dummy.Test_dummy@1ddf84b8]" started-at="2021-05-08T00:33:21 IST" name="method_1_goToApp" finished-at="2021-05-08T00:33:21 IST" duration-ms="521" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_1_goToApp -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:dummy.Test_dummy@1ddf84b8]" started-at="2021-05-08T00:33:21 IST" name="afterMethod" finished-at="2021-05-08T00:33:21 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="method_2_swith()[pri:0, instance:dummy.Test_dummy@1ddf84b8]" started-at="2021-05-08T00:33:21 IST" name="method_2_swith" finished-at="2021-05-08T00:33:22 IST" duration-ms="927" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_2_swith -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:dummy.Test_dummy@1ddf84b8]" started-at="2021-05-08T00:33:22 IST" name="afterMethod" finished-at="2021-05-08T00:33:22 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="method_3_swith()[pri:0, instance:dummy.Test_dummy@1ddf84b8]" started-at="2021-05-08T00:33:22 IST" name="method_3_swith" finished-at="2021-05-08T00:33:23 IST" duration-ms="1465" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_3_swith -->
+        <test-method signature="method_4_TakeScreenshot()[pri:0, instance:dummy.Test_dummy@1ddf84b8]" started-at="2021-05-08T00:33:23 IST" name="method_4_TakeScreenshot" finished-at="2021-05-08T00:33:24 IST" duration-ms="578" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_4_TakeScreenshot -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:dummy.Test_dummy@1ddf84b8]" started-at="2021-05-08T00:33:23 IST" name="afterMethod" finished-at="2021-05-08T00:33:23 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:dummy.Test_dummy@1ddf84b8]" started-at="2021-05-08T00:33:24 IST" name="afterMethod" finished-at="2021-05-08T00:33:24 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="method_5_TakeElementScreenshot()[pri:0, instance:dummy.Test_dummy@1ddf84b8]" started-at="2021-05-08T00:33:24 IST" name="method_5_TakeElementScreenshot" finished-at="2021-05-08T00:33:24 IST" duration-ms="284" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_5_TakeElementScreenshot -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:dummy.Test_dummy@1ddf84b8]" started-at="2021-05-08T00:33:24 IST" name="afterMethod" finished-at="2021-05-08T00:33:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method signature="method_6_getRectattributes()[pri:0, instance:dummy.Test_dummy@1ddf84b8]" started-at="2021-05-08T00:33:24 IST" name="method_6_getRectattributes" finished-at="2021-05-08T00:33:24 IST" duration-ms="66" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- method_6_getRectattributes -->
+        <test-method is-config="true" signature="afterMethod()[pri:0, instance:dummy.Test_dummy@1ddf84b8]" started-at="2021-05-08T00:33:24 IST" name="afterMethod" finished-at="2021-05-08T00:33:24 IST" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+      </class> <!-- dummy.Test_dummy -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
