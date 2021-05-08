@@ -69,7 +69,7 @@
                      <version>2.16</version>
                      <configuration>
                            <suiteXmlFiles>
-                                  <suiteXmlFile>${basedir}/testng.xml</suiteXmlFile>
+                                  <suiteXmlFile>testng.xml</suiteXmlFile>
                            </suiteXmlFiles>
                             <!-- Build with '-DskipTests=true' to bypass test execution @ build time Default: false -->
                            <skipTests>${skipTests}</skipTests>
