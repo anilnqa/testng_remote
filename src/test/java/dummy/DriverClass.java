@@ -44,7 +44,7 @@ public class DriverClass {
 		  chromeOptions.addArguments("--headless");
 		  chromeOptions.addArguments("--no-sandbox");
 		  chromeOptions.setPageLoadStrategy(PageLoadStrategy.EAGER);
-		  driver = new RemoteWebDriver(new URL("http://35.225.158.172:4444/wd/hub"), chromeOptions);
+		  driver = new RemoteWebDriver(new URL("http://18.218.14.223:4444/wd/hub"), chromeOptions);
 	  }
 
 	@AfterSuite
