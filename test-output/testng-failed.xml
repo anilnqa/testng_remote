@@ -1,20 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
-  <test thread-count="5" name="Default test(failed)">
+<suite parallel="tests" name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" parallel="tests" name="Test(failed)">
     <classes>
-      <class name="dummy.Test_dummy">
+      <class name="dummy.Test_RemoteExecution">
         <methods>
-          <include name="method_5_TakeElementScreenshot"/>
-          <include name="method_4_TakeScreenshot"/>
-          <include name="method_6_getRectattributes"/>
-          <include name="beforeClass"/>
-          <include name="afterMethod"/>
-          <include name="method_2_swith"/>
-          <include name="method_1_goToApp"/>
-          <include name="method_3_swith"/>
+          <include name="testremote"/>
         </methods>
-      </class> <!-- dummy.Test_dummy -->
+      </class> <!-- dummy.Test_RemoteExecution -->
     </classes>
-  </test> <!-- Default test(failed) -->
-</suite> <!-- Failed suite [Default suite] -->
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->

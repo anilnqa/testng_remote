@@ -7,7 +7,7 @@
 
     <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
     <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
-    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="jquery.min.js"></script>
     <script type="text/javascript" src="testng-reports.js"></script>
     <script type="text/javascript" src="https://www.google.com/jsapi"></script>
     <script type='text/javascript'>
@@ -93,7 +93,7 @@
               <div class="suite-section-content">
                 <ul>
                   <li>
-                    <span class="method-stats">6 methods,   6 passed</span>
+                    <span class="method-stats">1 method,   1 passed</span>
                   </li>
                   <li>
                     <span class="method-list-title passed">Passed methods</span>
@@ -104,32 +104,7 @@
                     <div class="method-list-content passed suite-Suite">
                       <span>
                         <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="dummy.Test_dummy" class="method navigator-link" hash-for-method="method_1_goToApp">method_1_goToApp</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="dummy.Test_dummy" class="method navigator-link" hash-for-method="method_2_swith">method_2_swith</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="dummy.Test_dummy" class="method navigator-link" hash-for-method="method_3_swith">method_3_swith</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="dummy.Test_dummy" class="method navigator-link" hash-for-method="method_4_TakeScreenshot">method_4_TakeScreenshot</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="dummy.Test_dummy" class="method navigator-link" hash-for-method="method_5_TakeElementScreenshot">method_5_TakeElementScreenshot</a> <!-- method navigator-link -->
-                      </span>
-                      <br/>
-                      <span>
-                        <img src="passed.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="dummy.Test_dummy" class="method navigator-link" hash-for-method="method_6_getRectattributes">method_6_getRectattributes</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="dummy.Test_RemoteExecution" class="method navigator-link" hash-for-method="testremote">testremote</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                     </div> <!-- method-list-content passed suite-Suite -->
@@ -147,49 +122,14 @@
           <div class="suite-Suite-class-passed">
             <div class="main-panel-header rounded-window-top">
               <img src="passed.png"/>
-              <span class="class-name">dummy.Test_dummy</span>
+              <span class="class-name">dummy.Test_RemoteExecution</span>
             </div> <!-- main-panel-header rounded-window-top -->
             <div class="main-panel-content rounded-window-bottom">
               <div class="method">
                 <div class="method-content">
-                  <a name="method_1_goToApp">
-                  </a> <!-- method_1_goToApp -->
-                  <span class="method-name">method_1_goToApp</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method_2_swith">
-                  </a> <!-- method_2_swith -->
-                  <span class="method-name">method_2_swith</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method_3_swith">
-                  </a> <!-- method_3_swith -->
-                  <span class="method-name">method_3_swith</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method_4_TakeScreenshot">
-                  </a> <!-- method_4_TakeScreenshot -->
-                  <span class="method-name">method_4_TakeScreenshot</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method_5_TakeElementScreenshot">
-                  </a> <!-- method_5_TakeElementScreenshot -->
-                  <span class="method-name">method_5_TakeElementScreenshot</span>
-                </div> <!-- method-content -->
-              </div> <!-- method -->
-              <div class="method">
-                <div class="method-content">
-                  <a name="method_6_getRectattributes">
-                  </a> <!-- method_6_getRectattributes -->
-                  <span class="method-name">method_6_getRectattributes</span>
+                  <a name="testremote">
+                  </a> <!-- testremote -->
+                  <span class="method-name">testremote</span>
                 </div> <!-- method-content -->
               </div> <!-- method -->
             </div> <!-- main-panel-content rounded-window-bottom -->
@@ -207,7 +147,7 @@
   &lt;test thread-count=&quot;5&quot; parallel=&quot;tests&quot; name=&quot;Test&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;dummy.DriverClass&quot;/&gt;
-      &lt;class name=&quot;dummy.Test_dummy&quot;/&gt;
+      &lt;class name=&quot;dummy.Test_RemoteExecution&quot;/&gt;
     &lt;/classes&gt;
   &lt;/test&gt; &lt;!-- Test --&gt;
 &lt;/suite&gt; &lt;!-- Suite --&gt;
@@ -247,36 +187,16 @@ data.addColumn('number', 'Number');
 data.addColumn('string', 'Method');
 data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
-data.addRows(6);
+data.addRows(1);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'method_3_swith')
-data.setCell(0, 2, 'dummy.Test_dummy')
-data.setCell(0, 3, 1465);
-data.setCell(1, 0, 1)
-data.setCell(1, 1, 'method_2_swith')
-data.setCell(1, 2, 'dummy.Test_dummy')
-data.setCell(1, 3, 927);
-data.setCell(2, 0, 2)
-data.setCell(2, 1, 'method_4_TakeScreenshot')
-data.setCell(2, 2, 'dummy.Test_dummy')
-data.setCell(2, 3, 578);
-data.setCell(3, 0, 3)
-data.setCell(3, 1, 'method_1_goToApp')
-data.setCell(3, 2, 'dummy.Test_dummy')
-data.setCell(3, 3, 521);
-data.setCell(4, 0, 4)
-data.setCell(4, 1, 'method_5_TakeElementScreenshot')
-data.setCell(4, 2, 'dummy.Test_dummy')
-data.setCell(4, 3, 284);
-data.setCell(5, 0, 5)
-data.setCell(5, 1, 'method_6_getRectattributes')
-data.setCell(5, 2, 'dummy.Test_dummy')
-data.setCell(5, 3, 66);
+data.setCell(0, 1, 'testremote')
+data.setCell(0, 2, 'dummy.Test_RemoteExecution')
+data.setCell(0, 3, 2566);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
 }
               </script>
-              <span class="suite-total-time">Total running time: 3 seconds</span>
+              <span class="suite-total-time">Total running time: 2 seconds</span>
               <div id="times-div-Suite">
               </div> <!-- times-div-Suite -->
             </div> <!-- times-div -->
@@ -309,65 +229,17 @@ return data;
               </div> <!-- configuration-suite before -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
-              <div class="chronological-class-name">dummy.Test_dummy</div> <!-- chronological-class-name -->
-              <div class="configuration-class before">
-                <span class="method-name">beforeClass</span>
-                <span class="method-start">3045 ms</span>
-              </div> <!-- configuration-class before -->
+              <div class="chronological-class-name">dummy.Test_RemoteExecution</div> <!-- chronological-class-name -->
               <div class="test-method">
-                <span class="method-name">method_1_goToApp</span>
-                <span class="method-start">3058 ms</span>
+                <span class="method-name">testremote</span>
+                <span class="method-start">1369 ms</span>
               </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">3582 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">method_2_swith</span>
-                <span class="method-start">3585 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">4513 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">method_3_swith</span>
-                <span class="method-start">4514 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">5980 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">method_4_TakeScreenshot</span>
-                <span class="method-start">5980 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">6560 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">method_5_TakeElementScreenshot</span>
-                <span class="method-start">6561 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">6846 ms</span>
-              </div> <!-- configuration-method after -->
-              <div class="test-method">
-                <span class="method-name">method_6_getRectattributes</span>
-                <span class="method-start">6846 ms</span>
-              </div> <!-- test-method -->
-              <div class="configuration-method after">
-                <span class="method-name">afterMethod</span>
-                <span class="method-start">6914 ms</span>
-              </div> <!-- configuration-method after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">dummy.DriverClass</div> <!-- chronological-class-name -->
               <div class="configuration-suite after">
                 <span class="method-name">afterSuite</span>
-                <span class="method-start">6975 ms</span>
+                <span class="method-start">3955 ms</span>
               </div> <!-- configuration-suite after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
